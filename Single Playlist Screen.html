@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Playlist</title>
+    <!-- related css  -->
+    <link rel="stylesheet" href="single playlist screen.css">
+    <link rel="stylesheet" href="secondary_responsive_design.css">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/2d9b67a497.js" crossorigin="anonymous"></script>
+  </head>
+  <!-- body -->
+  <body>
+    <!-- top navigation bar -->
+    <nav class="navigation-bar">
+        <!-- this div contains the logo and title os the page -->
+        <div class="title">
+            <div class="website-logo">
+                <img src="static\images\website_logo.png">
+            </div>
+            <div class="website-name">
+                <h2>
+                    <a href="index.html">
+                        Renuka
+                    </a>
+                </h2>
+                <!-- sub title -->
+                <h6 class="sub-title">
+                    Music Player
+                </h6>
+            </div>
+        </div>
+        <!-- this is the animated favourites text -->
+        <div class="favs">
+            <h4>
+                Favourites
+            </h4>
+        </div>
+        <div class="search-bar">
+            <!-- search icon -->
+            <div class="search-icon">
+                <i class="fas fa-search"></i>
+            </div>
+            <input type="text" name="search" placeholder="Search">
+              <!-- mic icon -->
+            <div class="mic-icon">
+                <i class="fas fa-microphone"></i>
+            </div>
+        </div>
+        <!-- this is for notification bell -->
+        <div class="bell-icon">
+          <i class="fas fa-bell fa-lg"></i>
+        </div>
+        <!-- this is for profile picture -->
+        <div class="profile-picture">
+            <img src="static\images\profile_image.jpg">
+        </div>
+    </nav>
+    <!-- main section -->
+    <main>
+      <!-- aside section -->
+      <aside class="section">
+        <!-- jumbotron -->
+        <div class="jumbotron">
+          <div class="jumbotron-img">
+            <!-- image will be added in css -->
+          </div>
+          <!-- jumbotron details -->
+          <div class="jumbotron-details">
+               <!-- descriptive part of the jumbotron this will contain name , number of followers and all -->
+               <div class="desc-part">
+                 <div class="main-song">
+                   <h1>ColdPlay</h1>
+                 </div>
+                 <div class="followers">
+                   2M Followers
+                 </div>
+                 <!-- author name -->
+                 <p class="author">British Band</p>
+                 <!-- short desc of RRR -->
+                 <p class="desc">
+                        Coldplay are a British rock band formed in London in 1996. Vocalist, rhythm guitarist and pianist Chris Martin, lead guitarist Jonny Buckland, bassist Guy Berryman, and drummer Will Champion met at University College London and began playing music together from 1996 to 1998, first calling themselves Pectoralz and then Starfish before finally changing their name to Coldplay
+                 </p>
+               </div>
+               <!-- action part -->
+               <div class="action-part">
+                 <!-- action buttons -->
+                 <div class="buttons">
+                   <button >Play All</button>
+                   <button >Follow</button>
+                 </div>
+                 <p>247 Tracks | 128 Albums</p>
+               </div>
+          </div>
+        </div>
+        <!-- playlist items -->
+        <div class="playlist-items">
+          <div class="item">
+            <div class="left">
+              <div >
+                01
+              </div>
+              <div>
+                <img src="static\images\action\action1.jpg" alt="">
+                <div class="play-btn">
+                       <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Alone</h5>
+                 <p>Alan Walker</p>
+              </div>
+            </div>
+              <div class="center">
+                    3:15
+              </div>
+              <div class="right">
+                <div class="">
+                      <i class="far fa-heart"></i>
+                </div>
+                <div class="">
+                   <i class="fas fa-plus"></i>
+                </div>
+              </div>
+            </div>
+                   <!-- second item -->
+                   <div class="item">
+                     <div class="left">
+                       <div >
+                         02
+                       </div>
+                       <div>
+                         <img src="static\images\action\action1.jpg" alt="">
+                         <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                         </div>
+                       </div>
+                       <div>
+                         <h5>Mirage</h5>
+                          <p>Else</p>
+                       </div>
+                     </div>
+                       <div class="center">
+                             3:20
+                       </div>
+                       <div class="right">
+                         <div class="">
+                               <i class="far fa-heart"></i>
+                         </div>
+                         <div class="">
+                            <i class="fas fa-plus"></i>
+                         </div>
+                       </div>
+                     </div>
+                         <!-- third item -->
+                         <div class="item">
+                           <div class="left">
+                             <div >
+                               03
+                             </div>
+                             <div>
+                               <img src="static\images\action\action2.jpg" alt="">
+                               <div class="play-btn">
+                                      <i class="fas fa-play"></i>
+                               </div>
+                             </div>
+                             <div>
+                               <h5>Worry Bout Us</h5>
+                                <p>Rosie Lowe</p>
+                             </div>
+                           </div>
+                             <div class="center">
+                                   4:15
+                             </div>
+                             <div class="right">
+                               <div class="">
+                                     <i class="far fa-heart"></i>
+                               </div>
+                               <div class="">
+                                  <i class="fas fa-plus"></i>
+                               </div>
+                             </div>
+                           </div>
+                           <!-- fourth item -->
+                           <div class="item">
+                             <div class="left">
+                               <div >
+                                 04
+                               </div>
+                               <div>
+                                 <img src="static\images\action\action2.jpg" alt="">
+                                 <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                 </div>
+                               </div>
+                               <div>
+                                 <h5>New Skin</h5>
+                                  <p>Flume</p>
+                               </div>
+                             </div>
+                               <div class="center">
+                                     4:20
+                               </div>
+                               <div class="right">
+                                 <div class="">
+                                       <i class="far fa-heart"></i>
+                                 </div>
+                                 <div class="">
+                                    <i class="fas fa-plus"></i>
+                                 </div>
+                               </div>
+                             </div>
+                             <!-- fifth item -->
+                             <div class="item">
+                               <div class="left">
+                                 <div >
+                                   05
+                                 </div>
+                                 <div>
+                                   <img src="static\images\action\action3.jpg" alt="">
+                                   <div class="play-btn">
+                                          <i class="fas fa-play"></i>
+                                   </div>
+                                 </div>
+                                 <div>
+                                   <h5>Alone</h5>
+                                    <p>Alan Walker</p>
+                                 </div>
+                               </div>
+                                 <div class="center">
+                                       3:20
+                                 </div>
+                                 <div class="right">
+                                   <div class="">
+                                         <i class="far fa-heart"></i>
+                                   </div>
+                                   <div class="">
+                                      <i class="fas fa-plus"></i>
+                                   </div>
+                                 </div>
+                               </div>
+                               <!-- sixth item -->
+                               <div class="item">
+                                 <div class="left">
+                                   <div >
+                                     06
+                                   </div>
+                                   <div>
+                                     <img src="static\images\action\action3.jpg" alt="">
+                                     <div class="play-btn">
+                                            <i class="fas fa-play"></i>
+                                     </div>
+                                   </div>
+                                   <div>
+                                     <h5>New Skin</h5>
+                                      <p>Flume</p>
+                                   </div>
+                                 </div>
+                                   <div class="center">
+                                         2:20
+                                   </div>
+                                   <div class="right">
+                                     <div class="">
+                                           <i class="far fa-heart"></i>
+                                     </div>
+                                     <div class="">
+                                        <i class="fas fa-plus"></i>
+                                     </div>
+                                   </div>
+                                 </div>
+                                 <!-- 7th item -->
+                                 <div class="item">
+                                   <div class="left">
+                                     <div >
+                                       07
+                                     </div>
+                                     <div>
+                                       <img src="static\images\action\action4.jpg" alt="">
+                                       <div class="play-btn">
+                                              <i class="fas fa-play"></i>
+                                       </div>
+                                     </div>
+                                     <div>
+                                       <h5>Mirage</h5>
+                                        <p>Else</p>
+                                     </div>
+                                   </div>
+                                     <div class="center">
+                                           2:20
+                                     </div>
+                                     <div class="right">
+                                       <div class="">
+                                             <i class="far fa-heart"></i>
+                                       </div>
+                                       <div class="">
+                                          <i class="fas fa-plus"></i>
+                                       </div>
+                                     </div>
+                                   </div>
+                                   <!-- 8th item -->
+                                   <div class="item">
+                                     <div class="left">
+                                       <div >
+                                         08
+                                       </div>
+                                       <div>
+                                         <img src="static\images\action\action4.jpg" alt="">
+                                         <div class="play-btn">
+                                                <i class="fas fa-play"></i>
+                                         </div>
+                                       </div>
+                                       <div>
+                                         <h5>Worry Bout Us</h5>
+                                          <p>Rossie Lowe</p>
+                                       </div>
+                                     </div>
+                                       <div class="center">
+                                             2:20
+                                       </div>
+                                       <div class="right">
+                                         <div class="">
+                                               <i class="far fa-heart"></i>
+                                         </div>
+                                         <div class="">
+                                            <i class="fas fa-plus"></i>
+                                         </div>
+                                       </div>
+                                     </div>
+
+          </div>
+      </aside>
+      <!-- one aside section is completed -->
+      <!-- now the second aside section -->
+
+      <!-- the page is responsive-->
+       <!-- the aside section will collapse and a "more button will be shown to you." -->
+       <label for="more"><i class="fas fa-angle-double-left"></i>More</label>
+       <!-- this is the check box. this will always be hidden -->
+        <!-- when the label is clicked, this checkbox will be checked -->
+        <!-- which will invoke the aside section 2 on lower resolutions -->
+        <input type="checkbox" id="more">
+        <!-- now the another aside section -->
+        <aside class="section1">
+          <div class="similar">
+          <div class="section-heading">
+            <h1>Similar Artists</h1>
+            <div class="view-button">
+                   View All
+            </div>
+          </div>
+          <!-- contents of similar artists -->
+          <div class="list">
+            <!-- items -->
+            <div class="list-item">
+              <div class="">
+                <img src="static\images\list\list_1.jpeg" alt="">
+              </div>
+              <div  style="position: absolute; left:120px;">
+                <h5>Love Me</h5>
+                <p class="author-name">Justin Beiber</p>
+              </div>
+              <div class="extra">
+                <div>
+                   <i class="fas fa-ellipsis-h"></i>
+                  </div>
+                  <p class="author-name">
+                                4:14
+                            </p>
+              </div>
+            </div>
+            <!-- item -->
+            <div class="list-item">
+              <div class="">
+                <img src="static\images\list\list_2.jpeg" alt="">
+              </div>
+              <div  style="position: absolute; left:120px;">
+                <h5>I want You</h5>
+                <p class="author-name">Justin Beiber</p>
+              </div>
+              <div class="extra">
+                <div>
+                   <i class="fas fa-ellipsis-h"></i>
+                  </div>
+                  <p class="author-name">
+                                1:24
+                            </p>
+              </div>
+            </div>
+            <!-- item -->
+            <div class="list-item">
+              <div class="">
+                <img src="static\images\list\list_3.jpeg" alt="">
+              </div>
+              <div  style="position: absolute; left:120px;">
+                <h5>Don't Love</h5>
+                <p class="author-name">Justin Beiber</p>
+              </div>
+              <div class="extra">
+                <div>
+                   <i class="fas fa-ellipsis-h"></i>
+                  </div>
+                  <p class="author-name">
+                                4:44
+                            </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- recently played section -->
+          <div class="similar">
+            <!-- section headings, which also contains the view all button -->
+            <div class="section-heading">
+                <h1>Recently Played</h1>
+                <div class="view-button">
+                  View All
+                          </div>
+                        </div>
+                         <!-- again list is a container for all the contents of recently played section -->
+                         <div class="list">
+                               <!-- item -->
+                               <div class="item">
+                                 <div class="left">
+                                   <div>
+                                          01
+                                   </div>
+                                   <div class="">
+                                     <img src="static\images\recent\recently_played1.jpeg" alt="">
+                                   </div>
+                                          <div class="">
+                                            <h5> I'll wait</h5>
+                                            <p>Kygo</p>
+                                          </div>
+                                 </div>
+                                 <div class="right">
+                                   <div>
+                                   <i class="far fa-heart"></i>
+                               </div>
+                                 </div>
+                               </div>
+                               <!-- item -->
+                               <div class="item">
+                                 <div class="left">
+                                   <div>
+                                          02
+                                   </div>
+                                   <div class="">
+                                     <img src="static\images\recent\recently_played2.jpeg" alt="">
+                                   </div>
+                                          <div class="">
+                                            <h5> Psycho</h5>
+                                            <p>Kygo</p>
+                                          </div>
+                                 </div>
+                                 <div class="right">
+                                   <div>
+                                   <i class="far fa-heart"></i>
+                               </div>
+                                 </div>
+                               </div>
+                               <!-- item -->
+                               <div class="item">
+                                 <div class="left">
+                                   <div>
+                                          03
+                                   </div>
+                                   <div class="">
+                                     <img src="static\images\recent\recently_played3.jpeg" alt="">
+                                   </div>
+                                          <div class="">
+                                            <h5> Oh My Friend</h5>
+                                            <p>Kygo</p>
+                                          </div>
+                                 </div>
+                                 <div class="right">
+                                   <div>
+                                   <i class="far fa-heart"></i>
+                               </div>
+                                 </div>
+                               </div>
+                               <!-- item -->
+                               <div class="item">
+                                 <div class="left">
+                                   <div>
+                                          04
+                                   </div>
+                                   <div class="">
+                                     <img src="static\images\recent\recently_played4.jpeg" alt="">
+                                   </div>
+                                          <div class="">
+                                            <h5> I'll wait</h5>
+                                            <p>Kygo</p>
+                                          </div>
+                                 </div>
+                                 <div class="right">
+                                   <div>
+                                   <i class="far fa-heart"></i>
+                               </div>
+                                 </div>
+                               </div>
+                               <!-- item -->
+                               <div class="item">
+                                 <div class="left">
+                                   <div>
+                                          05
+                                   </div>
+                                   <div class="">
+                                     <img src="static\images\recent\recently_played5.jpeg" alt="">
+                                   </div>
+                                          <div class="">
+                                            <h5> I'll wait</h5>
+                                            <p>Kygo</p>
+                                          </div>
+                                 </div>
+                                 <div class="right">
+                                   <div>
+                                   <i class="far fa-heart"></i>
+                               </div>
+                                 </div>
+                               </div>
+                               <!-- item -->
+                               <div class="item">
+                                 <div class="left">
+                                   <div>
+                                          06
+                                   </div>
+                                   <div class="">
+                                     <img src="static\images\recent\recently_played6.jpeg" alt="">
+                                   </div>
+                                          <div class="">
+                                            <h5>V</h5>
+                                            <p>Kygo</p>
+                                          </div>
+                                 </div>
+                                 <div class="right">
+                                   <div>
+                                   <i class="far fa-heart"></i>
+                               </div>
+                                 </div>
+                               </div>
+                               <!-- item -->
+                               <div class="item">
+                                 <div class="left">
+                                   <div>
+                                          07
+                                   </div>
+                                   <div class="">
+                                     <img src="static\images\recent\recently_played7.jpeg" alt="">
+                                   </div>
+                                          <div class="">
+                                            <h5>Temper</h5>
+                                            <p>Dsp</p>
+                                          </div>
+                                 </div>
+                                 <div class="right">
+                                   <div>
+                                   <i class="far fa-heart"></i>
+                               </div>
+                                 </div>
+                               </div>
+                         </div>
+          </div>
+          </div>
+        </aside>
+
+        <!-- footer section -->
+        <footer>
+          <div class="active-song-description">
+            <div class="song-image">
+              <img src="static\images\playlist\item_7.jpeg" alt="">
+            </div>
+            <!-- song name and author -->
+            <div class="name-author">
+              <div> Imagine</div>
+                         <div>
+                             John
+                         </div>
+                         </div>
+                       <!-- heart icon and ban icon -->
+                       <div class="heart-ban-icon">
+                         <span>
+                              <i class="far fa-heart"></i>
+                          </span>
+                          <span>
+                              <i class="fas fa-ban"></i>
+                          </span>
+                       </div>
+
+            </div>
+            <div class="player">
+              <div class="controls">
+                  <div><i class="fas fa-random"></i></div>
+                  <div><i class="fas fa-step-backward"></i></div>
+                  <div><i class="fas fa-pause-circle"></i></div>
+                  <div><i class="fas fa-step-forward"></i></div>
+                  <div><i class="fas fa-redo"></i></div>
+              </div>
+              <div class="slider">
+                <!-- time -->
+                <div class="time">
+                             1:00
+                         </div>
+                         <div class="slide-container">
+                           <input type="range" min="0" max="100" value="30" class="slider1" id="myRange">
+                         </div>
+                         <!-- total time -->
+                          <div class="time">
+                              4:44
+                          </div>
+              </div>
+          </div>
+          <!-- other icons including the volume slider and all -->
+          <div class="extras">
+          <div>
+            <i class="fas fa-list-ul"></i>
+          </div>
+          <div>
+            <i class="fas fa-laptop"></i>
+          </div>
+          <div>
+            <i class="fas fa-volume-up"></i>
+          </div>
+          <div class="slide-container" style="width:40%;">
+            <input type="range" min="0" max="100" value="0" class="slider1" id="myRange" style="margin-top:0px;">
+          </div>
+          <div>
+            <i class="fas fa-expand-alt"></i>
+          </div>
+          </div>
+
+
+
+
+        </footer>
+    </main>
+
+  </body>
+</html>
